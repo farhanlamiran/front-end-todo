@@ -129,7 +129,7 @@ const WeekView = () => {
 
             {/* Week Grid */}
             <div className="max-w-7xl mx-auto px-6 py-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {weekDates.map((date, index) => {
                         const dayName = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][index];
                         const isToday = date === today;
